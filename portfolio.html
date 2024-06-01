@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+
+
+        .q{
+            background-color: 	white;
+            height: 66px;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            border-radius: 20px;
+        }
+        .w{
+            font-family: "Trirong", serif;
+            font-weight:800;
+            font-size:small;
+            text-decoration: none;
+            color: #ADD8E6;
+            padding: 20px;
+            border-radius: 20px;
+            
+          
+        }
+        .w:hover{
+            transition: 0.5s;
+            text-decoration: underline;
+            background-color: whitesmoke;
+            color: #4169E1;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .w:active{
+            color: #D2042D; /*place ur mouse pointer in the middle otherwise it will lag*/
+            background-color: whitesmoke;
+        }
+        .o{
+            height: 60px;
+            width: 60px;
+            border-radius: 59px;
+            margin-right: 792px;
+            color: black;
+            background-color: black;
+            margin-top: 120px;
+        }
+        .hr{
+            background-color: black;
+        }
+        a{
+            transition: 0.8s;
+        }
+        .lo{
+            height: 280px;
+            border-radius: 20px;
+        }
+        .ll{
+            width: 280px;
+            
+        }
+        .li{
+            height: 252px;
+            border-radius: 20px;
+        }
+        .s{
+            font-size: xx-large;
+            padding-left: 200px; 
+            padding-right: 250px;
+        }
+        
+        #ioo{
+            display: block;
+        margin-left: auto;
+        
+        }
+        .sai{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: xx-large;
+            font-weight: 900;
+        }
+        .wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 29.4ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  transition: 0.6s;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.ce{
+    font-weight: 650;
+    color: #dadade;
+    background-color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+html { 
+    scroll-behavior: smooth;
+ }
+ .ce:hover{
+    letter-spacing: 2px;
+    font-size: 12px;
+ } 
+  /* CSS styles */
+  .cll {
+    
+    color: #333; /* Dark gray color */
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f8f8; /* Light gray background */
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    opacity: 1; /* Initially invisible */
+    animation: bounceIn 10s ease infinite; /* Animation */
+}
+
+/* Keyframes for bounceIn animation */
+@keyframes bounceIn {
+    0% {
+        opacity: 1;
+        transform: translateY(-100px) rotate(-5deg);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(50px) rotate(5deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+}
+.cll{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ADD8;
+}
+.cll:hover{
+    color: #ADD8E6;
+    cursor: default;
+}
+
+ </style>
+</head>
+<body>
+    <header class="q">
+        <img class="o" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8AAADw8PC9vb1MTExlZWXQ0NBAQEDj4+P8/Pzb29v19fXm5ub4+Pjp6enZ2dl1dXWAgIB0dHRubm6VlZV7e3sjIyOfn59QUFDDw8NDQ0Ozs7OFhYVcXFyrq6vLy8s5OTkaGhqXl5eMjIwuLi4REREgICBZWVkNDQ2lpaUxMTEWFhZTZPppAAAHtklEQVR4nO2daVvqMBBGAREFBNxwxSsIKOr//3/XkKkInaVLxkCc8+k+N9i0fTkhTdO00TAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzCM6HTaN5et2DuhSaf5xV3svdDkwh1h8yj2bijij3Dajb0fehw1kw/xbn2EJwmHeJ98iN30Q/wDJraTD/EPmJh+iGDifez90ANCfIi9H4qYiQnwmL6JD8mbmH7HJgvRTDxgzMQEMBMToHuyPsJ27P0IQgsd5H5UMLHfYlATon/cbI77+f8fnAQ3EZovgofTcDVtcey2fo4U/AttYo89wGbzI1hNWzz7rY/yJd1pYBOPhSNsBqtpiye/8WOkKHBzOpIOUOcIO9nWO/myAYQYyEQxwqsw9ezwlG0eCxFMfA5SE1i4OMnxsPJFvSD17PC8OYOIiYOQJkKESKvdWJLnuD5PmyPEviMBTYQIJ0jRtS9S+bHoNH/AhBjARIhwmC/p05rUx0c4+yBDDGYiRDhGim71Lbx9kUKsf2f/yleB9Q81I/TfnNfWGW1ioI5NXAvnjcZEDLGmiVdxLPQRLr+qHdIhvocw8TSOhRDhtfv3hKwniIlRLZytq4WTfIl8LICJsoUqEY6+LXTQIfbrmwgRniEb149wBfIP6RBrmyhbiDRx9flpoYMJ0XcI3ipXdRnVwu/2W89ExsKXX7PQcSGFWLU5vdwHCx3QscFGbMBE5CK5AGf7YaFDDLGaieekhV1f8lRpsxK+/f7c6kWdiiFWaU5PRQtVIsxb6FAJ8VyyUDPC3Y6wholxLZzv/j+EiFzI9BcVQxyj59Lx6xY6mM5HRRMZCzUjHJHVjmkTq4U4jmohUq1sTTkTh3EsxBtSz5g0sbWocM4vaAtX6hEukWpDmwhbu0CKNCNkOsINLsR++RAvaAs1I6Q7wg75Wq64icNVWKsLwlnoCGjiRLKw+iUnB2ehoye6U9TEs5W0JZUIeQsdwUxkekiaEdId4Qy5ASx26lu0hbWuNwUkCx2iicWuyRkLl4oR+oZ0RVroYL7IJUI8W+6phQ4mxJvCJk5oCzUjpDvCP2FMfCl6+lvLKBb2CljoOJdClE2c0xZ+rkt0HjYuYqFDHuGUAhh+kl+DIDezCJgf8x18iKvqJs5pCzUjpFuQXRgT4WYRf1HQ8ocReNhOpFhD6hFD5E2cky1ad6ZvodCQepieQQETI1nIfPMQzsnT0XoVTWQs1IyQ7ghjMINkoomtWRQLmV1Gob/Tw1fBRMZC/6c6k8fli4ptGBOveROHswOw0OFDXGImztgQaQsH+2Ohg/lxmXMmQkvEWKjyDEdZCx10iEMuxOs4Fha7qNhGNhELESLEdAg65XgHZoyQwYeYv4HDmshYqBlheQsdzMUWaWJcC0s0pB7qLtx3vyw/1e+FPJdd36HVeaSxioUObD4DQJgoW6gSIXPPTEAMcddEejqsqoX0oJBEWRPh0kppiiPJWUULHXSIMFq4baJo4UmVnRCh73HJMCYiIUKEh2Ohw4c4w0zMP+nCWKjZkFa30NGjQ8xNf++LFqo8Gj5kLOwc0WQ7DiEi09Lg7tnGxFv6XC70LcSqhSKCJ/8MFpj4gvw9mJjNTWEs1HwwHCLEelG37AF+X4j4EF+REOEudmbi+75Z2H8VjnA6WH9ONhFC9FNWI1nITBagyUbT6BDBRDioS+pcqlpIRwjWMGTjMEVN7C2JT2k82Z8hW3hMMd4MNGUPgCHb32pOTy/OsaNQ7c4wQ7PyuO43PTpEetLtBk0LW37bjIXFRhRoE0+3TMTxFk4L1VQW0cKCE0fAxFu6CiZETQshQuwEl5ws4E28wZrT5k8TEbqaDemcPL/wE1x4ssCIDlEyMZKFpUfX6RCZZxjWfChayDSkJSPcPBONFPEmHoaFDjFE3MSuZkMqWljqBklFE38hwmBDs9VMBAtVFkhiLFyUj5A1kQ4RInwsV1UxWrQdJSfCZogh5o0/IAsdjInURB3NCPuBLXRAiMgCM9StLf8U+MdBWOgAE9+RInwwKJKFNSYL+LVeFnSI2yZ2NRtSeqUCsLDSDZKSJv6ChczyAdXG9WgTsQV24lg4WFSPkDUxH+IvRKiwFoto4qbxhhX7DslCx6h4iJEirH05Soe4OwFZ00LmHpe3sMbo+n3REH8hQmyuS4D5Hm8+mkG+ZLtjo2khszRZgBskHTrEn7MfjxQjHCha6Chmol+/dnFwFjrAxH9I0eV31Y/0h2qja6GDNnHTsdFsSOlnpEPdIGFMhBCHR4oRalvoeCNNzOZr+vd+LZCY68NM2fkIEyFrIkwwWkWxMODouo9oSpuoGCG9CGHIGyQdKUS9CGHJl5NRJwd8fcP8BENzSpv4xY2mhTTTMPWIJipHyBBqdB1MRH7vMhN1LBQXPZ+GqulZDFElQnFl/oAdYR8i1rHxzdArtmx3ANr8AQZc1f2ePmXrQSKtV5t0J3dtkrtJyPPaJk1sPD4dp/DulufQ3/v9g+7YpILmVfyekP5LEv+AiW0z8fCBd86aiYdM+s1p+i9JbKT/ksT03/5sJqaANzGNN13i/AET029OzcQE+DMh/gETVday3BP8xAvsMdpUOEr+MnE97/QtYQ+/eHxJOkHDMAzDMAzDMAzDMAya/6q6erEF9wPpAAAAAElFTkSuQmCC" alt="">
+        <a class="w" href="portfolio.html">Home</a>
+        <a class="w" href="3.html">About</a>
+        <a class="w" href="2.html">Portfolio</a>
+        <a class="w" href="1.html">Contact</a>
+    </header><hr class="hr">
+    <br><br><br>
+    <div class="wrapper">
+        <div class="typing-demo">
+         Hi welcome to the Portfolio!!
+         
+        </div>
+        <center ><a href="#io" class="ce"> SCROLL</a></button></center>
+    </div></div>
+    
+    
+      
+           <img id="io" class="lo" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" alt="">
+           <h1 class="cll">In the realm of digital innovation, diversity isn't just a buzzword; it's the cornerstone of progress. As a coder fluent in HTML, CSS, and JavaScript, I've witnessed firsthand how embracing diversity in programming languages mirrors the broader spectrum of human experiences and perspectives.</h1>
+                       <img id="ioo" class="li" src="https://miro.medium.com/v2/resize:fit:1400/1*KnV1cBSw-kWyh7Y6XEEzrA.jpeg" alt="">
+        
+        
+</body>
+<footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+        
+        <div class="footer_bg">
+            <div class="footer_bg_one"></div>
+            <div class="footer_bg_two"></div>
+        </div>
+    </div>
+   
+</footer>
+<style>
+    .new_footer_area {
+    background: #fbfbfd;
+}
+
+
+.new_footer_top {
+    padding: 120px 0px 270px;
+    position: relative;
+      overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.footer_bottom {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7f88a6;
+    padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #6a7695;
+    margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+    border-width: 1px;
+    margin-top: 20px;
+}
+.btn_get_two:hover {
+    background: transparent;
+    color: #5e2ced;
+}
+.btn_get:hover {
+    color: #fff;
+    background: #6754e2;
+    border-color: #6754e2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #5e2ced;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li { 
+    margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+    margin-bottom: 0px; 
+}
+.new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #e2e2eb;
+    font-size: 24px;
+}
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #ebeef5;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter-alt:before {
+    content: "\e74b";
+}
+.ti-vimeo-alt:before {
+    content: "\e74a";
+}
+.ti-pinterest:before {
+    content: "\e731";
+}
+
+.btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #5e2ced;
+    border-color: #5e2ced;
+    color: #fff;
+}
+
+.btn_get_two:hover {
+    background: transparent;
+    color: #5e2ced;
+}
+
+.new_footer_top .f_social_icon a:hover {
+    background: #5e2ced;
+    border-color: #5e2ced;
+  color:white;
+}
+.new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #263b5e;
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif") no-repeat center center;
+    width: 330px;
+    height: 105px;
+  background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
+    width: 88px;
+    height: 100px;
+  background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+</style>
+</html>
